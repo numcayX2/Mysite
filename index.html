@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animated.css">
+    <style>
+        * {
+            font-family: 'Noto Sans Thai', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-slate-200 w-screen">
+    <nav class="h-14 w-screen bg-teal-950 drop-shadow-xl" id="top">
+
+    </nav>
+
+    <div class="place-content-center container mx-auto">
+        <div class="w-1/1 bg-cover bg-center bg-no-repeat bg-[url('img/henry-han-IWm-Owxk9rw-unsplash.jpg')] relative">
+            <div class="bottom-0 left-0 p-4 bg-gray-500 bg-opacity-50 text-white">
+              <div class="text-center py-40 sm:py-48 lg:py-64">
+                <h1 data-aos="fade-down" data-aos-duration="1500" class="drop-shadow-2xl text-7xl font-bold">สวัสดี,</h1>
+                <p data-aos="fade-up" data-aos-duration="1500" class="drop-shadow-2xl text-4xl">ผม นาย สุธารชัย ประดิษฐกูล</p>
+              </div>
+            </div>
+        </div>
+        <div class="mt-5">
+            <div class="w-4/5 lg:w-1/2 mx-auto drop-shadow-2xl rounded-md h-fit p-10 bg-white flex flex-col sm:flex-row sm:text-center mt-24" data-aos="flip-up" data-aos-duration="2000">
+                <img src="img/IMG_0739 (1).jpg" alt="MyProPic" class="mx-auto h-64 w-48 rounded drop-shadow-md md:h-72">
+                <div class="mt-5 sm:ml-3 sm:mt-0">
+                    <h1 class="font-bold text-xl">เกี่ยวกับฉัน</h1>
+                    <ul class="list-none">
+                        <li>ชื่อ : นาย สุธารชัย ประดิษฐกูล</li>
+                        <li>วันเกิด : 29 ตุลาคม 2548</li>
+                        <li>อายุ : 17 ปี</li>
+                        <li>ที่อยู่ : 22 หมู่ 10 ตำบล แม่แรง อำเภอ ป่าซาง จังหวัด ลำพูน 51120</li>
+                        <li>อีเมล : sby_35123@sby.ac.th</li>
+                    </ul>
+                    <div id="contact" class="flex justify-center mt-5">
+                        <a href="#" class="h-14 w-14 mx-4"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" class="rounded-full hover:drop-shadow-lg duration-200 hover:rotate-6" alt="ig_icon"></a>
+                        <a href="#" class="h-14 w-14 mx-4"><img src="https://i.pinimg.com/originals/ce/d6/6e/ced66ecfc53814d71f8774789b55cc76.png" class="rounded-full hover:drop-shadow-lg duration-200 hover:rotate-6" alt="fb_icon"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="hobby" class="mt-24 w-full"> 
+            <div class="flex w-full text-center justify-center" data-aos="zoom-out">
+                <h1 class="text-5xl sm:text-7xl font-regular">งานอดิเรกฉันทำอะไร</h1>
+                <h1 class="mx-3 text-5xl sm:text-7xl font-bold" id="mark_jiggle">?</h1>
+            </div>
+            <img src="img/R50.png" data-aos="zoom-in" alt="canon_r50" class="w-96 mx-auto my-12">
+            <h1 class="mx-auto w-fit text-4xl" data-aos="zoom-in">ฉับชอบถ่ายรูป !</h1>
+            <div id="img_show" class="mt-24">
+                <div class="w-full h-48 bg-center bg-cover bg-[url('https://images.unsplash.com/photo-1693943719314-93d5755bef07?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1364&q=80')]" data-aos="fade-right"></div>
+                <div class="w-full h-48 bg-center bg-cover bg-[url('https://images.unsplash.com/photo-1694248607966-7e6ac34c6e56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80')]" data-aos="fade-left"></div>
+                <div class="w-full h-48 bg-center bg-cover bg-[url('https://images.unsplash.com/photo-1693155381071-28e1bccbb820?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80')]" data-aos="fade-right"></div>
+            </div>
+        </div>
+        
+
+
+        
+    </div>
+
+    <!--To the top Button-->
+    <div class="to-top">
+        <a onclick="scroll()" href="#top">
+            <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+            </svg>
+        </a>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
